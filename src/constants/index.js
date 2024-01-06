@@ -1,7 +1,7 @@
 import {
-  mobile,
+  webxr,
   backend,
-  creator,
+  fullstack,
   web,
   javascript,
   typescript,
@@ -13,15 +13,17 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+  webgl,
   docker,
+  ajnalens,
   meta,
   starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  CSULA,
+  remote_tool,
+  flask_folium,
+  ai_town,
+  price_pilot,
   threejs,
 } from "../assets";
 
@@ -42,20 +44,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Full-Stack Developer",
+    icon: fullstack,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "WebXR Developer",
+    icon: webxr,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Three.JS Developer",
+    icon: threejs,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "WebGL Developer",
+    icon: webgl,
   },
 ];
 
@@ -105,8 +107,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "WebGL",
+    icon: webgl,
   },
   {
     name: "docker",
@@ -116,55 +118,41 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full-Stack Intern",
+    company_name: "Ajnalens",
+    icon: ajnalens,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "July 2020 - September 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented a prototype-based metaverse app for immersive collaborative learning with AjnaX AR glasses.",
+      "Enabled visualization of lab experiments in a mixed reality environment, featuring 3D model manipulation, spatial audio, and 3D Annotations.",
+      "Pioneered SFU (Selective Forward Unit) research in media Soup, enhancing network performance by 80% for multiple connections in an interactive virtual environment.",
+      "Tech-stack: Three.JS, Node.JS, Python, web-XR, web-RTC, socket.io, AWS-EC2, Git, CI/CD.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full-Stack Developer",
+    company_name: "AjnaLens",
+    icon: ajnalens,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2020 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered a 3D model scaling algorithm for universal Field of View (FOV) compatibility with an accuracy of 95%.",
+      "Developed enterprise support with AR-based Remote Assistance software, reducing response time of on-field assistance by 97% for enterprise clients like Tata-Steel, and Mahindra.",
+      "Innovated real-time XR app streaming from Cloud servers to HMD with < 20ms motion-to-photon latency.",
+      "Collaboratively worked with Qualcomm to build award-winning software on 5G XR-Streaming at IMC-2022.",
+      "Architected cloud-based GPU resource allocation for real-time users using Kubernetes cluster helping the company to optimize cloud resources.",
+      "Spearheaded a team of 5 full-stack developers and 2 interns, demonstrating effective leadership in overseeing various projects."
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Research Assistant",
+    company_name: "California State University, Los Angeles",
+    icon: CSULA,
+    iconBg: "#383E56",
+    date: "October 2023 -  Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I am working on project SPACE (Simulation-Based Pedagogical Approach for STEM Education) funded by National Science Foundation (NSF) which aims to solve advanced scientific problems using Computer Graphics, Simulations, and modeling.",
     ],
   },
 ];
@@ -172,93 +160,114 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+      "Arpit joined our team as an intern and quickly demonstrated his exceptional professionalism through his outstanding agility, which ultimately led to his promotion as the team lead. One aspect of Arpit's work that I deeply appreciate is his openness to embracing novel ideas and approaches. He possesses a sincere enthusiasm for learning and consistently exhibits a keen interest in exploring innovative strategies. Arpit's remarkable agility in quickly grasping new concepts and seamlessly implementing them is truly praiseworthy.",
+    name: "Kuldeep Kaur Makhija",
+    designation: "Project Manager",
+    company: "AjnaLens",
+    image: "https://media.licdn.com/dms/image/D4D03AQFY40Y6LsaiJQ/profile-displayphoto-shrink_400_400/0/1684985939522?e=1709769600&v=beta&t=UvIJj6KwkfUw8EKxkacWrg2Oxo3jLVTjUeYpmQNdPso",
+  }
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Remote Collaboration",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "threejs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "WebXR",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "WebRTC",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: remote_tool,
+    source_code_link: "https://github.com/Vaishya26/CS-5337/",
   },
   {
-    name: "Job IT",
+    name: "AI Price Pilot",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A tool specially designed for e-commerce companies for staying ahead in the market of competition.Easy viewable historical as well as real time dynamic data without any human intervention. Analyse and helps you to restructure your price strategy based on the competition",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Web Crawlers",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CNN-KNN",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: price_pilot,
+    source_code_link: "https://github.com/Vaishya26/vistul_1",
   },
   {
-    name: "Trip Guide",
+    name: "Stanford AI Town",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The project aimed to create a miniature RPG-style virtual world where AI-controlled characters, powered by ChatGPT and custom code, simulate realistic behaviors, interactions, and decision-making",
     tags: [
       {
-        name: "nextjs",
+        name: "LLM",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "OpenAI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ai_town,
+    source_code_link: "https://github.com/Vaishya26/Stanford-Town-AI-Project",
+  },
+  {
+    name: "Flask-Folium",
+    description:
+      "An easiest way to plot maps using python(Flask Framework) and Folium without using any Cloud Api's.",
+    tags: [
+      {
+        name: "Flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Folium",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: flask_folium,
+    source_code_link: "https://github.com/Vaishya26/Flask-Folium",
   },
 ];
 
